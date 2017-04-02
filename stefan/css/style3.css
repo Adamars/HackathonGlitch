@@ -1,11 +1,5 @@
-.nav{
-    padding-left:19%;
-    font-family: "Lucida console";
-    font-size: 20px;
-    font-weight: bold;
-}
 .panel{
-    margin-top:30px;
+    margin-top:60px;
     width:30%;
     font-size:18px;
     font-family: "verdana";
@@ -13,9 +7,25 @@
 }
 .panel > .panel-heading {
     background-image: none;
-    background-color: yellow;
+    background-color: red;
     color: black;
 }
+.panel > .panel-heading2 {
+    background-image: none;
+    background-color: yellow;
+    color: black;
+    height:6%;
+}
+ .ceva{
+    padding-left: 14%;
+ }
+    .nav{
+    padding-left:19%;
+    font-family: "Lucida console";
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .troll{
     width:auto;
     height:40%;
@@ -24,9 +34,7 @@
 .trooll{
     padding-left:40%;
 }
-.ceva{
-    padding-left: 38%;
-    }
+
 .titlu{
     font-family:"Times new roman";
     font-size:30px;
@@ -40,7 +48,14 @@ img {
     width:90%;
 }
 .ceva2{
-    padding-left:8%;
+    margin-top:120px;
+    padding-left:25%;
+}
+.ceva3{
+    position:absolute;
+    top:130px;
+    left:950px;
+    width:80%;
 }
 .cursuri{
     font-family:"Lucida console";
