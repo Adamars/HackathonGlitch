@@ -1,0 +1,8 @@
+CREATE OR REPLACE TRIGGER prof_on_insert
+  BEFORE INSERT ON PROFESORI
+  FOR EACH ROW
+BEGIN
+  SELECT PROF_sequence.nextval
+  INTO :new.id
+  FROM dual;
+END;
