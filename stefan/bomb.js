@@ -9,7 +9,7 @@ document.write("<img name=\"pic\"src=" + picFollow.src + "></div>");
 var picX = 20;
 var picY = 100;
 var step = 10;
-var speed = 100;
+var speed = 10;
 var tolerance = step/2 +1;
 var mouseX = 0;
 var mouseY = 0;
@@ -59,5 +59,6 @@ clearInterval(myInterval);
 pic.src = picExplosion.src;
 followMouse = true;
 setTimeout('hideAnimation()', 2000);
+alert("Rank-ul tau a scazut cu 1 punct . Mult succes data viitoare !");
    }
 }
